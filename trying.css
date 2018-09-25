@@ -1,0 +1,111 @@
+html{
+	cursor:url(https://cdn.emojidex.com/emoji/px128/b.png?1463154446), auto;
+}
+
+body {
+	font-family: 'Roboto Slab', serif;
+	background-color: #EF4CFF;
+}
+
+.nti {
+	position: absolute;
+	height: 6%;
+	left: 3%;
+	width: 14.5%;
+	top: 1%;
+	background-color: #74007F;
+	padding:0.8%;
+
+}
+
+
+.nav_buttons{
+
+}
+
+
+.nav_buttons button{
+	font-size: 2em; 
+	background-color: #000; /* Green background */
+    border: 2.69px solid green; /* Green border */
+    color: #74007F; /* #74007F text */
+    display: block; /* Make the buttons appear below each other */
+    width: 100%;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    border-radius: 8px;
+    margin: 3px;
+}
+
+
+.nav_buttons button:hover{
+    background-color: #4CAF50; /* Green */
+    color: #74007F;
+}
+
+
+.header {
+	left: 22%;
+	color: #EF4CFF;
+	position: absolute;
+	width: 70%;
+	right: 15%;
+	height: 9%;
+	background-color: #74007F;
+	text-align: center;
+	font-size: 35px;
+	vertical-align: middle;
+	line-height: 50%;
+	top: 1%;
+}
+
+.article {
+	position: absolute;
+	background-color: #74007F;
+	text-align: center;
+	vertical-align: middle;
+	line-height: 250px;
+	height: 75%;
+	width: 70%;
+	left: 22%;
+	top: 14%;
+	right: 15%;
+
+}
+
+.engbart {
+	position: absolute;
+	top: 3%;
+	width: 15%;
+	height: 35%;
+	left: 2%;
+}
+
+.nav {
+	top: 14%;
+	background-color: #EF4CFF;
+	left: 3%;
+	height: 75%;
+	position: absolute;
+	width: 16%;
+	bottom:14%;
+
+}
+
+.footer {
+  color:#EF4CFF;
+  text-align: center;
+  font-size: 19px;
+	bottom: 2%;
+	background-color: #74007F;
+	left: 3%;
+	width: 89%;
+	height: 3%;
+	position: absolute;
+}
+
+.responsive
+{
+    max-width: 100%;
+    height: auto;
+}
